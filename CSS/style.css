@@ -1,0 +1,36 @@
+@keyframes dashAnime{
+    from{
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill:none;
+    }
+    to{
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        fill:#831d1c;
+    }
+}
+
+.alianhamento{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.st0{
+    
+    fill:none;
+    stroke: green;
+    stroke-width:4;
+    stroke-miterlimit:10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 200;
+    animation: dashAnime 10s linear forwards;
+}
