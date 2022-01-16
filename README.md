@@ -1,2 +1,1 @@
-# Aula-SVGs
- Animações de imagens SVGs
+https://rickoslima.github.io/Aula-SVGs/
